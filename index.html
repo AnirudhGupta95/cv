@@ -1,0 +1,206 @@
+
+<!DOCTYPE html> <!-- This tells the document type.
+It tells the editor, which html version we are working with
+This is the latest HTML5 we are working on.
+-->
+<html lang="en" dir="ltr"> <!-- This code tells the browser that everything
+  between the opening and closing tag will be the html code -->
+
+  <head> <!-- Head is the part of the html file that holds information
+    about the webpage and it tells the browser, how it should handle the webpage
+    -->
+
+    <meta charset="utf-8"> <!-- This is an element within the head tag
+      meta elements give extra data or associated data to your html document
+      There are many meta elements but here we are using charset
+      charset = "utf-8" tells our browser that all the text in our webpage is
+      encoded by using utf8 encoding system.
+      THere are different type of encodings and they are specified for different
+      languages.
+      utf-8 is the standard encoding that you should be working with. It includes
+      all the international symbols.
+      Utf 8 also has many emojies.
+      utf-8 gives your wesite the best chance to be rendered correctly.
+
+
+     -->
+
+    <title>💙Anirudh's Personal Site</title> <!-- This tag exists within the head tag
+      and it tells browser what is the title of the webpage
+      Title here is not the heading of the webpage, but the title that we see on the
+      tab on the top of the browser.
+      -->
+  </head>
+  <body>
+    <table cellspacing = "20">
+      <tr>
+        <td><img src="Anirudh DP.jpg" alt="Anirudh's Profile Picture"></td>
+        <td>
+          <h1> Anirudh Gupta </h1>
+          <p><em>Founder and CTO of <Strong> <a href="https://appbrewery.com/"> App Brewery </a></Strong></em></p>
+          <p>I am an IOS and Web Developer. I love coffee and brew my own coffee </p>
+        </td>
+      </tr>
+    </table>
+
+    <!-- img tag is used to add images to our page. Here src is the source of
+    our image and alt is the alternate text that browser will show if in case
+    it is not able to load the image.
+    Also the text in alt is used by google for Search Engine Optimization.
+   -->
+
+
+    <!-- We have installed a package, atom beautify which will automatically make
+         indentations proper -->
+
+    <!-- p tag is used to write the paragraph while em tag is to italicise
+        i tag is also used to italicize the text but there is a little bit of
+        difference here from the em tag.
+        The em tag tells the browser the the words inside needs an emphasis and
+        it also italicizes the text but i tag only italicizes the text.
+        It is a good practice to always use em tag instead of i tag because it
+        conveys more information and it isn’t just about the style.
+
+        a is the anchor tag and it is used to add hyperlinks to the HTML document
+        href is the hyoerlink reference that contains the site address or URL
+        which the link will take the user to.
+        For more information on a tag, see Notion notes.
+     -->
+
+     <hr size = "3" >
+
+     <h3>Books and Teaching</h3>
+     <ul>
+       <li>The Complete IOS App Development Bootcamp</li>
+       <li>The Complete Web Development Bootcamp</li>
+     </ul>
+     <!-- ul stands for unordered lists and is used to create the bullet list in
+          HTML. Within ul tag, we use li tag which contains the matter for every
+          bullet point separately.
+     -->
+     <hr>
+
+     <h3>Work Experience</h3>
+     <table cellspacing="10"> <!-- For creating tables in HTML, we can also add border attribute-->
+       <thead> <!-- Table Head -->
+         <tr>
+           <th>Dates</th> <!-- Table Header Cell -->
+           <th>Work</th>
+         </tr>
+
+       </thead>
+       <tbody>
+         <tr> <!-- table row -->
+           <td>2010 - 2013</td> <!-- Table Data -->
+           <td>Lead Developer at Tempo App</td>
+         </tr>
+         <tr>
+           <td>2010</td>
+           <td>Researcher at the institute of Cognitive Neurosciences</td>
+         </tr>
+
+       </tbody>
+       <tfoot>
+
+       </tfoot>
+     </table>
+     <!-- In order to form tables in HTML , we use table tag, within table tag,
+          we use tr tag for table row and td tag for table data -->
+     <hr>
+     <h3>Skills</h3>
+
+<!--
+     <table border="1">
+       <tr>
+         <td>
+           <table>
+             <thead>
+               <th>Skills</th>
+               <th>Ratings</th>
+
+             </thead>
+             <tbody>
+               <tr>
+                 <td>Excel</td>
+                 <td>★★★★</td>
+               </tr>
+               <tr>
+                 <td>SQL</td>
+                 <td>★★★★</td>
+               </tr>
+             </tbody>
+           </table>
+         </td>
+         <td>
+           <table>
+             <thead>
+               <th>Skills</th>
+               <th>Ratings</th>
+
+             </thead>
+             <tbody>
+               <tr>
+                 <td>Python</td>
+                 <td>★★★</td>
+               </tr>
+               <tr>
+                 <td>Machine Learning</td>
+                 <td>★★★★</td>
+               </tr>
+             </tbody>
+           </table>
+
+         </td>
+       </tr>
+     </table>
+
+-->
+     <table cellspacing="10">
+       <thead>
+         <th>Skills</th>
+         <th>Ratings</th>
+
+       </thead>
+       <tbody>
+         <tr>
+           <td>Excel</td>
+           <td>★★★★</td>
+         </tr>
+         <tr>
+           <td>Python</td>
+           <td>★★★</td>
+         </tr>
+         <tr>
+           <td>SQL</td>
+           <td>★★★★</td>
+         </tr>
+         <tr>
+           <td>Machine Learning</td>
+           <td>★★★★</td>
+         </tr>
+       </tbody>
+       <tfoot>
+
+       </tfoot>
+     </table>
+
+ <!-- This is the simple
+   The above table is more advcanced
+-->
+
+
+
+     <hr>
+
+     <a href="hobbies.html">My Hobbies</a>
+       <!-- ol stands for ordered lists in HTML and is used in the same manner
+            as unordered lists.
+            See hobbies.html for the ol
+
+            Here we also see that we can link another html file with an a tag
+            in our main HTML file.
+       -->
+     <br>
+     <a href="contact.html">Contact Me</a>
+  </body>
+</html>
